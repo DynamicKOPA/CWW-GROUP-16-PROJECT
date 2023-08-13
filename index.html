@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Music Player</title>
+  </head>
+  <body> 
+    <div class="container">
+      <h1 class="heading">MUSIC PLAYER</h1>
+      <div class="music-container">
+        <div id="cover-box">
+          <img src="image/CTA-Logo.png" alt="cover-image" id="cover">
+        </div>
+        <div id="music-box">
+          <audio id="disc">Disc 1</audio>
+          <div id="music-info">
+            <h2 id="title">Ebenezeri</h2>
+            <h3 id="artist">Kent Edunjobi and Apex Choir ft EmmaOMG</h3>
+            <div id="progress-container">
+              <div id="progress"></div>
+            </div>
+            <div id="timer-bar">
+              <span id="timer">0:00</span>
+              <span id="duration">4:54</span>
+            </div>
+          </div>
+            <div id="control-box">
+              <i id="prev" class="btn fas fa-backward">PREV</i>
+              <i id="play" class="special-btn fas fa-play">PLAY</i>
+              <i id="next" class="btn fas fa-forward">NEXT</i>
+            </div>
+          </div>
+          <label>
+            <input type="range" id="slider1" min="0" max="100" value="50"></input>
+          </label>
+        </div>
+      </div>
+    </div>
+    <footer class="footer">
+      <h1>CWW Tech Africa Cohort 4.0 WEB DEVELOPMENT GROUP 16</h1>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
+
